@@ -1,1 +1,149 @@
-ddd
+/*css reset start*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+ol,li {
+	list-style: none;
+     
+}
+/*css reset end*/
+
+body {
+	background: rgb(128,128,128);
+}
+.clearfix:before,
+.clearfix:after{
+	content:'';
+	height: 0;
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+.clearfix{
+	*zoom: 1;
+}
+
+
+/*main start*/
+#main {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main ol {
+    width: 1215px;
+    user-select: none;
+    background: rgb(153,153,153);
+    margin: 0 auto;
+    padding: 12px 0 12px 12px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 0px 2px rgba(153,153,153,0.75);
+}
+
+#main ol li {
+	float: left;
+	position: relative;	
+	width: 71px;
+    height: 60px;
+    margin: 0 12px 12px 0; 
+    padding: 5px 0 0 10px;  
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+    font-family: keyboard, "Arial Rounded", Helvetica, Arial, sans-serif;
+    font-size: 18px;   
+    border-radius: 4px;
+    box-shadow: 2px 2px 0px 1px rgba(0,0,0,0.75);
+}
+
+#main ol li span {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#main .special {
+	width: 120px;
+	line-height: 60px;
+	text-align: left;	
+	padding: 0;
+	padding-left: 10px;
+}
+
+#main .special.right {
+	text-align: right;
+}
+
+
+#main .special.big1 {
+	width: 137px;
+	
+}
+
+#main .special.big2 {
+	width: 179px;
+	
+}
+
+#main li.ctrl {
+	width: 97px;
+}
+
+#main li.space {
+	width: 402px;
+}
+
+#main li.small {
+	width: 60px;
+}
+
+#main .Vcenter {
+	line-height: 53px;
+	text-align: left;
+}
+
+#main div li {
+	width: 63px;
+	height: 46px;
+	margin-bottom: 4px;
+	padding: 0;
+	padding-left: 10px;
+	line-height: 46px;
+}
+
+#main li.arrow.center {
+	padding-left: 27px;
+}
+
+#main div li.left {
+	padding-right: 10px;
+	text-align: right;
+}
+
+#main ol li button {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	border: 1px solid #f3f3f3;
+	border-radius: 3px;
+	background: #f3f3f3;
+	padding: 3px;
+	user-select: none;
+	display: none; 
+}
+
+#main ol li:hover button{
+	display: block;
+}
+
+#main ol li img{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+/*main end*/
