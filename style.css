@@ -12,6 +12,7 @@ ol,li {
 body {
 	background: rgb(128,128,128);
 }
+
 .clearfix:before,
 .clearfix:after{
 	content:'';
@@ -27,11 +28,13 @@ body {
 
 
 /*main start*/
-#main {
-	display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+
+
+.main {
+    display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	height: 100vh;
 }
 
 #main ol {
@@ -41,7 +44,7 @@ body {
     margin: 0 auto;
     padding: 12px 0 12px 12px;
     border-radius: 6px;
-    box-shadow: 2px 2px 0px 2px rgba(153,153,153,0.75);
+   
 }
 
 #main ol li {
